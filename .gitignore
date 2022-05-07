@@ -1,5 +1,6 @@
 /target
 
-/ch01/target
 /ch01/graph/*
 !/ch01/graph/sample.png
+
+Cargo.lock

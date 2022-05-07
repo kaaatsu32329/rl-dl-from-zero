@@ -1,0 +1,22 @@
+[package]
+name = "ch04"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { version="0.1.0", path="../common"}
+rand = "0.6"
+
+[[bin]]
+name = "dp"
+path = "./src/bin/dp.rs"
+
+[[bin]]
+name = "dp_inplace"
+path = "./src/bin/dp-inplace.rs"
+
+[[bin]]
+name = "gridworld_play"
+path = "./src/bin/gridworld-play.rs"

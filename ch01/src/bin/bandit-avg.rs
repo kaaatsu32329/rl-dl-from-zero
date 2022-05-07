@@ -1,6 +1,6 @@
 mod bandit;
 
-use crate::bandit::bandit::{Bandit, Agent};
+use crate::bandit::bandit::{Agent, Bandit};
 use crate::bandit::plot::Plot;
 
 fn main() {
